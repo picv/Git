@@ -87,6 +87,11 @@ Git 和 SVN
   * -r
   * -f
 * mkdir 创建文件夹
+* mkdir                        创建一个目录                                       
+* rmdir                         删除一个目录  
+* mvdir                        移动或重命名一个目录  
+* find                                  使用匹配表达式查找文件          
+* file                                  显示文件类型                                               
 
 Git常用命令:
 
@@ -97,3 +102,12 @@ Git常用命令:
 提交修改: git commit -m '修改的内容'
 
 推送修改: git push
+
+暂存：git stash 
+
+列所有stash：git stash list 
+
+恢复暂存的内容：git stash apply 
+
+ 删除暂存区：git stash drop 
+
